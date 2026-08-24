@@ -1,0 +1,6 @@
+{
+  "name": "RailApp",
+  "description": "Indian Railways companion app for live train tracking, PNR status, seat availability, train search, station live boards, schedule, platform locator, and smart travel assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

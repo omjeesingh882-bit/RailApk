@@ -247,27 +247,12 @@ export const SlideBar: React.FC<SlideBarProps> = ({
               >
                 <div className="flex items-center gap-2">
                   <Smartphone className="w-4 h-4" />
-                  <span>Install RailApp on Phone (PWA)</span>
+                  <span>Install App & Build APK</span>
                 </div>
                 <span className="text-[10px] font-bold bg-slate-950 text-amber-400 px-2 py-0.5 rounded">
-                  Get App
+                  Get App / APK
                 </span>
               </button>
-
-              <a
-                id="slidebar-apk-download-btn"
-                href="/app-debug.apk"
-                download="RailApp-debug.apk"
-                className="w-full flex items-center justify-between p-3 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-white border border-slate-200 dark:border-slate-700 transition-all font-semibold text-xs"
-              >
-                <div className="flex items-center gap-2">
-                  <Download className="w-4 h-4 text-amber-500" />
-                  <span>Download Android APK Package</span>
-                </div>
-                <span className="text-[10px] font-mono text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900 px-2 py-0.5 rounded border border-slate-200 dark:border-slate-700">
-                  .apk
-                </span>
-              </a>
             </div>
 
           </div>

@@ -59,18 +59,11 @@ function AppContent() {
           <div className="flex items-center gap-4">
             <button 
               onClick={() => setIsInstallOpen(true)}
-              className="flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-amber-600 dark:hover:text-amber-400 font-semibold transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-700 dark:text-amber-300 font-semibold transition-colors"
             >
               <Smartphone className="w-3.5 h-3.5" />
-              <span>Install on Phone</span>
+              <span>Install App on Phone / Build APK</span>
             </button>
-            <a 
-              href="/app-debug.apk" 
-              download="RailApp-debug.apk" 
-              className="flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-amber-600 dark:hover:text-amber-400 font-semibold transition-colors"
-            >
-              <span>Download APK</span>
-            </a>
           </div>
         </div>
       </footer>
